@@ -103,7 +103,7 @@ async function handleRegister(event) {
 
         if (error) throw error;
 
-        showAlert('Registrasi berhasil! Silakan Login', 'success');
+        showAlert('Registrasi berhasil! silahkan verifikasi terlebih dahulu ', 'success');
 
         // Clear form
         document.getElementById('registerEmail').value = '';
